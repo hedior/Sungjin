@@ -1,0 +1,254 @@
+/* profile 시작 */
+div#profile_wrap{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 70px;
+}
+section#profile{
+  width: 880px;
+  height: auto;
+  margin: 0px auto;
+  position: relative; left: 0px; top: 0px;
+
+}
+p#profile_title{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  font: 700 140px 'ubuntu';
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  background: linear-gradient(270deg, #526862, #6c8780, #82a299, #6a7784, #515b66, #383f46, #171a1d, #3f4255);
+  background-size: 400% 400%;
+  color: #000000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: backgroundColor 12s ease;
+  -moz-animation: backgroundColor 12s ease;
+  animation: backgroundColor 12s ease;
+}
+p#profile_subtitle{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  font: 700 100px 'ubuntu';
+  text-align: center;
+  margin-top: 20px;
+}
+.subtitle{
+  background: linear-gradient(270deg, #526862, #6c8780, #82a299, #6a7784, #515b66, #383f46, #171a1d, #3f4255);
+  background-size: 400% 400%;
+  color: #000000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: backgroundColor 12s ease;
+  -moz-animation: backgroundColor 12s ease;
+  animation: backgroundColor 12s ease;
+}
+/* profile 끝 */
+/* skills 시작 */
+div#skills_wrap{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: inline-block;
+}
+section#skills{
+  width: 880px;
+  height: auto;
+  margin: 0px auto;
+  position: relative; left: 0px; top: 0px;
+}
+h2#skills_title{
+  /* width: 110px;
+  height: 40px;
+  font: 500 32px/40px 'ubuntu';
+  text-align: center;
+  margin-bottom: 30px; */
+  width: 100%;
+  height: 50px;
+  font: 700 32px/40px 'ubuntu';
+  text-indent: 15px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #b9b9b9;
+  box-sizing: border-box;
+}
+.accordion{
+  /* background-color: #d9d9d9; */
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 880px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font: 500 24px 'ubuntu';
+  border-bottom: solid 1px black;
+  background-color: rgba(0,0,0,0);
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  /* background-color: #ccc; */
+  cursor: cell;
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  /* color: #777; */
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  /* background-color: #d9d9d9; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel>p{
+  font: 500 18px/27px 'Noto Sans KR';
+  margin: 10px 0px;
+}
+/* skills 끝 */
+/* work 시작 */
+div#work_wrap{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 100px;
+}
+section#work{
+  width: 880px;
+  height: auto;
+  margin: 0px auto;
+  position: relative; left: 0px; top: 0px;
+}
+h2#work_title{
+  width: 100%;
+  height: 50px;
+  font: 700 32px/40px 'ubuntu';
+  text-indent: 15px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #b9b9b9;
+  box-sizing: border-box;
+}
+ul#work_list{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+ul#work_list>li{
+  margin-bottom: 50px;
+}
+p.work_name{
+  font: 500 24px/36px 'Noto Sans KR';
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+p.work_text{
+  font: 400 14px/21px 'Noto Sans KR';
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+a.work_imgs>img{
+  width: 100%;
+  transition: 0.7s;
+}
+a.work_imgs>img:hover{
+  cursor: cell;
+  transform: scale(1.05, 1.05);
+}
+/* work 끝 */
+/* contact 시작 */
+div#contact_wrap{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+section#contact{
+  width: 880px;
+  height: auto;
+  margin: 0px auto;
+  position: relative; left: 0px; top: 0px;
+}
+h2#contact_title{
+  width: 100%;
+  height: 50px;
+  font: 700 32px/40px 'ubuntu';
+  margin-bottom: 40px;
+  text-indent: 10px;
+  border-bottom: solid 1px #b9b9b9;
+  box-sizing: border-box;
+}
+p#contact_subtitle{
+  font: 400 14px/21px 'Noto Sans KR';
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+p#contact_text{
+  font: 500 24px/36px 'Noto Sans KR';
+}
+p#contact_text>i{
+  margin-right: 10px;
+  margin-left: 15px;
+}
+/* contact 끝 */
+
+@media screen and (max-width:880px) {
+  section#contact, section#skills, .accordion, section#profile, section#work{
+    width: 100%;
+  }
+  ul#work_list{
+    width: 95%;
+    margin: 0px auto;
+  }
+  p#profile_title{
+    font: 700 15vw 'ubuntu';
+  }
+  p#profile_subtitle{
+    font: 700 8vw 'ubuntu';
+  }
+}
+
+@media screen and (max-width:480px){
+  section#contact, section#skills, .accordion, section#profile, section#work{
+    width: 100%;
+    padding: 0px 16px;
+    box-sizing: border-box;
+  }
+  .accordion{
+    font: 500 18px 'ubuntu';
+  }
+  .panel>p{
+    font: 500 14px 'Noto Sans KR';
+  }
+  div#work_wrap{
+    margin-top: 50px;
+  }
+  div#contact_wrap{
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  p.work_name, p.work_text, p#contact_subtitle, p#contact_text>i{
+    margin-left: 0px;
+  }
+  /* .accordion:after, .active::after{
+    padding-right: 16px;
+    box-sizing: border-box;
+  } */
+}

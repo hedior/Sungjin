@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/sungjin/css/reset.css">
+  <link rel="stylesheet" href="/sungjin/css/common.css">
+  <link rel="stylesheet" href="/sungjin/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+  <script src="/sungjin/js/skills.js"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'/>
+</head>
+<body>
+  <!-- header -->
+  <div id="header_wrap">
+    <header>
+      <h1 id="title">SUNGJIN</h1>
+      <nav id="mainmenu">
+        <h2 id="portfolio">Portfolio<i class="fa-solid fa-caret-down" id="menu_icon"></i></h2>
+        <ul id="submenu_list">
+          <li><a href="#"><i class="fa-solid fa-o list_style"></i>ABOUT</a></li>
+          <li><a href="#skills_point"><i class="fa-solid fa-o list_style"></i>SKILLS</a></li>
+          <li><a href="#work_point"><i class="fa-solid fa-o list_style"></i>WORK</a></li>
+          <li><a href="#contact_point"><i class="fa-solid fa-o list_style"></i>CONTACT</a></li>
+        </ul>
+      </nav>
+      <nav id="mobilemenu">
+        <h2 class="hidden">모바일메뉴</h2>
+        <i id="mobilemenu_icon" class="fas fa-bars"></i>
+      </nav>
+    </header>
+  </div>
+  <!-- profile -->
+  <div id="profile_wrap">
+    <section id="profile">
+      <h2 class="hidden">프로필</h2>
+      <p id="profile_title">PORTFOLIO</p>
+      <p id="profile_subtitle">
+        <span class="subtitle">S</span>
+        <span class="subtitle">U</span>
+        <span class="subtitle">N</span>
+        <span class="subtitle">G</span>
+        <span class="subtitle">J</span>
+        <span class="subtitle">I</span>
+        <span class="subtitle">N</span>
+        <span class="subtitle">K</span>
+        <span class="subtitle">I</span>
+        <span class="subtitle">M</span>
+      </p>
+    </section>
+  </div>
+  <!-- skills -->
+  <p id="skills_point"></p>
+  <div id="skills_wrap">
+    <section id="skills">
+      <h2 id="skills_title">Skills</h2>
+      <button class="accordion">HTML5</button>
+      <div class="panel">
+        <p>-한국형 웹 접근성 지침 ( KWCAG ) 을 준수한 Html 5 웹표준 마크업<br>
+          -탭키로 메뉴 접근 가능</p>
+      </div>
+      <button class="accordion">CSS3</button>
+      <div class="panel">
+        <p>-Flex 및 Grid 레이아웃 기반의 반응형 웹사이트 개발 (하드코딩)<br>
+          -pc페이지는 ul li을 활용해 미디어스크린으로 반응형 홈페이지 제작모바일페이지는 flex 및 grid 레이아웃을 이용해서 하드코딩 가능</p>
+      </div>
+      <button class="accordion">JavaScript</button>
+      <div class="panel">
+        <p>- Java Script ES6 버전을 활용한 인터렉션 UI 개발 ( 하드코딩 )<br>
+          - 인터렉션 2Depth 네비게이션 및 메인 비쥬얼 슬라이드 개발 ( 하드코딩 )<br>
+          - GSAP 라이브러를 활용한 인터렉션 UI 개발<br>
+          - jQuery 라이브러리를 활용한 인터렉션 UI 개발</p>
+      </div>
+      <button class="accordion">Adobe Photoshop & Illustrator & Figma</button>
+      <div class="panel">
+        <p>-상품 상세페이지 제작 및 아이콘 로고 드로잉 작업 가능</p>
+      </div>
+    </section>
+  </div>
+  <!-- work -->
+  <p id="work_point"></p>
+  <div id="work_wrap">
+    <section id="work">
+      <h2 id="work_title">Work</h2>
+      <ul id="work_list">
+        <li>
+          <p><a href="http://sadwsz.dothome.co.kr/rewardbasic" target="_blank" id="work_img" class="work_imgs"><img src="/sungjin/images/work1.png" alt="Reward사이트로이동"></a></p>
+          <p class="work_name">Re-ward(적응형 웹페이지)</p>
+          <p class="work_text">작업 툴 : VS Code, Figma, Photoshop</p>
+          <p class="work_text">작업 소요 기간: 5일</p>
+          <p class="work_text">사용 기술 : HTML5, CSS3, Javascript</p>
+          <p class="work_text">기획 의도 : 옷에 관심이 있지만 어떻게 입어야 할지 모르는 사회 초년생 남자들을 위한 온라인 편집샵.<br>
+            웹 접근성 지침을 준수한 Html 5 웹표준 마크업으로 구성되어 있고 시각장애인을 위한 접근성으로 탭키로 메뉴 접근 가능.<br>
+            Media screen을 이용해 768PX까지는 반응형, 모바일로 접속시 자동으로 모바일 페이지로 접속 됨.
+          </p>
+        </li>
+        <li>
+          <p><a href="http://sadwsz.dothome.co.kr/ward" target="_blank" id="work_img2" class="work_imgs"><img src="/sungjin/images/work2.png" alt="Reward사이트로이동"></a></p>
+          <p class="work_name">Ward(PC용 웹페이지)</p>
+          <p class="work_text">작업 툴 : VS Code, Figma</p>
+          <p class="work_text">작업 기간 : 3일</p>
+          <p class="work_text">사용 기술 : HTML5, CSS3, Javascript</p>
+          <p class="work_text">기획 의도 : 여러 패션 브랜드의 룩북 스타일링을 보여주는 페이지로 패럴렉스 스크롤을 이용해서 연출함.</p>
+        </li>
+        <li>
+          <p><a href="http://sadwsz.dothome.co.kr/palaces" target="_blank" id="work_img3" class="work_imgs"><img src="/sungjin/images/work3.png" alt="Reward사이트로이동"></a></p>
+          <p class="work_name">P(a)laces(PC용 웹페이지)</p>
+          <p class="work_text">작업 툴 : VS Code, Figma, Photoshop</p>
+          <p class="work_text">작업 기간 : 3일</p>
+          <p class="work_text">사용 기술 : HTML5, CSS3, Javascript</p>
+          <p class="work_text">기획 의도 : 외국인을 위한 관광지 소개 페이지.<br>
+            기존 관광지 소개 페이지의 딱딱한 디자인을 감각적인 페이지로 기획함.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- contact -->
+  <p id="contact_point"></p>
+  <div id="contact_wrap">
+    <section id="contact">
+      <h2 id="contact_title">Contact</h2>
+      <p id="contact_subtitle">메일로 연락주시면 이틀 내로 답변 드리겠습니다.</p>
+      <p id="contact_text"><i class="fa-solid fa-envelope-open-text"></i>sadwsz@gmail.com</p>
+    </section>
+  </div>
+  <!-- footer -->
+  <div id="footer_wrap">
+    <footer>
+      <section id="footer">
+        <p>Copyright 2022, Sungjin. All right reserved.</p>
+      </section>
+    </footer>
+  </div>
+  
+  
+</body>
+</html>
