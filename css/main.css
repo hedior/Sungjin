@@ -78,7 +78,6 @@ h2#skills_title{
   box-sizing: border-box;
 }
 .accordion{
-  /* background-color: #d9d9d9; */
   color: #000000;
   cursor: pointer;
   padding: 18px;
@@ -94,14 +93,15 @@ h2#skills_title{
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   /* background-color: #ccc; */
+  background-color: rgba(40, 52, 105, 0.301);
   cursor: cell;
 }
 .accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  /* color: #777; */
   float: right;
   margin-left: 5px;
+  
 }
 
 .active:after {
@@ -118,8 +118,9 @@ h2#skills_title{
 }
 
 .panel>p{
-  font: 500 18px/27px 'Noto Sans KR';
-  margin: 10px 0px;
+  font: 500 16px/24px 'Noto Sans KR';
+  color: #222222;
+  margin-bottom: 10px;
 }
 /* skills 끝 */
 /* work 시작 */
@@ -162,10 +163,12 @@ p.work_text{
   font: 400 14px/21px 'Noto Sans KR';
   margin-bottom: 5px;
   margin-left: 10px;
+  color: #222222;
 }
 a.work_imgs>img{
   width: 100%;
   transition: 0.7s;
+  filter: drop-shadow(3px 3px 5px #3f4255);
 }
 a.work_imgs>img:hover{
   cursor: cell;
@@ -233,6 +236,9 @@ p#contact_text>i{
   }
   .accordion{
     font: 500 18px 'ubuntu';
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
   }
   .panel>p{
     font: 500 14px 'Noto Sans KR';
