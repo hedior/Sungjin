@@ -11,13 +11,7 @@ a{
   position: absolute;
 }
 body,html,div#header_wrap{
-  /* background-color: #d9d9d9; */
-  background: linear-gradient(#808080, #b1b1b1, #c2c2c2, #a0a0a0, #7e7e7e, #696969, #959595, #b4b4b4, #959595, #737373, #b1b1b1);
-  background-size: 1600% 1600%;
-
-  -webkit-animation: backgroundColor 30s ease infinite;
-  -moz-animation: backgroundColor 30s ease infinite;
-  animation: backgroundColor 30s ease infinite;
+  background-color: #ffffff;
 }
 
 /* 기본설정끝 */
