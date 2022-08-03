@@ -10,7 +10,18 @@ a{
   font-size: 0px;
   position: absolute;
 }
-body,html,div#header_wrap{
+/* body,html,div#header_wrap{
+  background: linear-gradient(#808080, #b1b1b1, #c2c2c2, #a0a0a0, #7e7e7e, #696969, #959595, #b4b4b4, #959595, #737373, #b1b1b1);
+  background-size: 1600% 1600%;
+
+  -webkit-animation: backgroundColor 30s ease infinite;
+  -moz-animation: backgroundColor 30s ease infinite;
+  animation: backgroundColor 30s ease infinite;
+} */
+body,html{
+  background-color: #Ffffff;
+}
+div#header_wrap{
   background-color: #ffffff;
 }
 
@@ -92,14 +103,14 @@ div#footer_wrap{
   display: inline-block;
   margin-top: 100px;
 }
-section#footer{
+div#footer{
   width: 880px;
   height: 100px;
   margin: 0px auto;
   position: relative; left: 0px; top: 0px;
   text-align: center;
 }
-section#footer>p{
+div#footer>p{
   width: 100%;
   height: 50px;
   font: 400 18px/27px 'ubuntu';
@@ -107,7 +118,7 @@ section#footer>p{
 /* footer 끝 */
 
 @media screen and (max-width:880px){
-  section#footer{
+  div#footer{
     width: 100%;
   }
 }
@@ -115,11 +126,14 @@ section#footer>p{
   h1#title{
     font: 500 14px/40px 'ubuntu';
   }
-  section#footer>p{
+  div#footer>p{
     font: 400 14px/21px 'ubuntu';
   }
   div#footer_wrap{
     margin-top: 50px;
+  }
+  div#footer{
+    height: 70px;
   }
 }
 
